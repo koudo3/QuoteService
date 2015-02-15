@@ -28,6 +28,7 @@ public class QuoteServiceTest {
 		WebResource service = client.resource(getBaseURI());
 		System.out.println(service.path("quote").path("hugo").accept(MediaType.APPLICATION_JSON).get(String.class));
 		System.out.println(service.path("quote").path("verlaine").accept(MediaType.APPLICATION_JSON).get(String.class));
+		System.out.println(service.path("quote").path("fowler").accept(MediaType.APPLICATION_JSON).get(String.class));
 	}
 
 	/**

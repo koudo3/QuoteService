@@ -58,6 +58,7 @@ public class QuoteService {
 			quoteByAuthor = new HashMap<String, String>();
 			quoteByAuthor.put("hugo", "Il vient une heure ou protester ne suffit plus, apres la phylosophie, il faut laction");
 			quoteByAuthor.put("verlaine", "Elle ne savait pas que lEnfer c'est l'absence");
+			quoteByAuthor.put("fowler", "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.");
 		}
 	}
 }
