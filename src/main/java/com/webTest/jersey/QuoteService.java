@@ -22,11 +22,11 @@ import org.json.JSONObject;
 public class QuoteService {
 
 	// TODO : implement a logger
-	// private static final Logger LOGGER = LoggerFactory.getLogger(AdminService.class);
+	// private static final Logger LOGGER = LoggerFactory.getLogger(QuoteService.class);
 	private static Map<String, String> quoteByAuthor = null;
 
 	/**
-	 * Return a citation from the author past in parameter
+	 * Return a quote from the author past in parameter
 	 * 
 	 * @param author
 	 * @return
